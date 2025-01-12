@@ -1,0 +1,75 @@
+body{
+    background-color: black;
+    color : white;
+    font-family: JetBrains Mono, Helvetica, sans-serif;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+}
+end a{
+    text-decoration: none;
+    text-align: center;
+    padding-top: 100px; 
+    color : rgb(51, 51, 51);
+}
+.mainimg{
+    border-radius: 5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 610px;
+    width: 1000px;
+}
+/* Tổng thể navbar */
+.navbar {
+    display: flex; /* Dùng Flexbox để căn chỉnh ngang */
+    align-items: center; 
+    background-color: black; /* Nền đen */
+    padding: 10px 20px; /* Khoảng cách trong navbar */
+}
+
+/* Profile ở bên trái */
+.profile {
+    display: flex;
+    align-items: center;
+    margin-right: auto; /* Đẩy các mục menu sang bên phải */
+}
+
+.avatar {
+    width: 40px; /* Kích thước avatar */
+    height: 40px;
+    border-radius: 50%; /* Làm tròn avatar */
+    margin-right: 8px; /* Khoảng cách giữa avatar và chữ */
+
+}
+
+.name {
+    font-size: 16px;
+    color: white; /* Màu chữ trắng */
+    font-weight: bold; /* Chữ đậm */
+}
+
+/* Menu Navbar ở bên phải */
+.navbar ul {
+    list-style-type: none; /* Loại bỏ dấu chấm đầu dòng */
+    display: flex; /* Hiển thị danh sách trên cùng một dòng */
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    margin-left: 15px; /* Khoảng cách giữa các mục */
+    margin-top: 10px;
+}
+
+.navbar a {
+    text-decoration: none; /* Loại bỏ gạch chân */
+    color: grey;
+    font-size: 16px;
+    transition: color 0.3s; /* Hiệu ứng hover mượt mà */
+}
+
+.navbar a:hover {
+    color: rgb(193, 193, 193); /* Màu xám khi hover */
+}
